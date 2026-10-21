@@ -1,1 +1,10 @@
-﻿Console.WriteLine("Hello, World!");
+﻿string[] party = { "Fathan", "Angel", "Wildan", "Nadia" };
+
+for (int i = 0; i < party.Length; i++)
+{
+    Console.WriteLine($"Member {i}: {party[i]}");
+}
+
+party[2] = "Farros";
+
+Console.WriteLine($"\nUpdated Member 2: {party[2]}");
